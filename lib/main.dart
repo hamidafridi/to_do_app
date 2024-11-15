@@ -101,6 +101,7 @@ class _TodoAppState extends State<TodoApp> {
                 itemBuilder: (context, index) => _buildTodoItem(index),
               ),
             ),
+            Text('We have connected this app with github'),
           ],
         ),
       ),
